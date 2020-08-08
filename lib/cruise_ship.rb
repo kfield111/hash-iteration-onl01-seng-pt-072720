@@ -12,4 +12,6 @@ def select_winner(passengers)
     if suite == a && name.start_with?("A")
       winner = name
     end
+  end
+  winner
 end
